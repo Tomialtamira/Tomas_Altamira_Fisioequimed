@@ -1,0 +1,1763 @@
+/*Reset*/
+*{
+	margin: 0;
+	padding: 0;	
+	text-decoration: none;
+	border: none;
+	outline: none;
+	box-sizing: border-box;
+}
+/*Inicio scss Index*/
+.body_index {
+    background-image: url(../jpg/fondo_index.JPG);
+    height: auto;
+    width: 100%;
+    .header{
+        background-color: rgba(181, 178, 189, 0.9) ;
+      
+    }
+    .header_isologo{       
+        width: 250px;
+        height: auto;
+        z-index: 100px;
+    }
+    .navbar-collapse{        
+        justify-content: end;
+    }
+    .nav-item{
+        margin: 15px;
+    }
+    .navbar-light .navbar-nav .nav-link{
+        font-family: 'Merriweather', serif; 
+        color: rgb(65, 64, 66) ;       
+    }
+    .navbar-light .navbar-nav .nav-link:hover{
+        color: rgb(117, 111, 157);       
+    }  
+
+.section_index{    
+    .titulo_section{
+        position: absolute;        
+        margin-top: 17px;
+        margin-left:80px;
+        font-family: 'Merriweather', serif; 
+        font-size: 30px;
+        font-weight: bold;
+        color: rgb(65, 64, 66);
+        text-align: center;       
+    }
+    .text_section{
+        border: 1px solid rgb(65, 64, 66);
+        border-radius:10px;        
+        font-family: 'Merriweather', serif; 
+        font-size: 15px;
+        font-weight: bold;
+        color: rgb(65, 64, 66);
+        padding: 115px 100px 30px 100px;
+        margin: 100px 980px 100px 50px;
+        background-color:rgba(181, 178, 189, 0.8) ;
+        text-align: center;
+    }
+}  
+    .footer{        
+        background-color:rgba(181, 178, 189, 0.9) ;
+        width: 100%;        
+        display: flex;
+        justify-content: space-evenly;	
+	    align-items: center;             
+        .txt_footer{
+            margin: 15px 0px;
+            font-family: 'Merriweather', serif; 
+            color:rgb(78, 76, 81) ; 
+            font-size: 13px;                         
+        } 
+        .instagram{
+            display: flex;           
+            width: 25px;
+            height: 25px;
+        }
+        .facebook{
+            display: flex;         
+            width: 25px;
+            height: 25px;
+        }     
+    }
+}
+/*Fin scss Index*/
+
+/*Inicio scss Que Hacemos*/
+.body_quehacemos {
+    background-color:rgb(255, 255, 255) ;
+    height: auto;
+    width: 100%;
+    .header{
+        background-color: rgba(181, 178, 189, 0.9) ;          
+    }
+    .header_isologo{       
+        width: 250px;
+        height: auto;
+        z-index: 100px;
+    }
+    .navbar-collapse{        
+        justify-content: end;
+    }
+    .nav-item{
+        margin: 15px;
+    }
+    .navbar-light .navbar-nav .nav-link{
+        font-family: 'Merriweather', serif; 
+        color: rgb(65, 64, 66) ;       
+    }
+    .navbar-light .navbar-nav .nav-link:hover{
+        color: rgb(117, 111, 157);       
+    }  
+
+.section_quehacemos{ 
+    border: 1px solid rgb(65, 64, 66);
+    border-radius:10px;  
+    padding: 30px;
+    background-color:rgba(181, 178, 189, 0.8) ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 40px 40px 40px 40px;
+    .div_section_quehacemo{
+        display: flex;
+                      
+    }
+    .text_section{              
+        font-family: 'Merriweather', serif; 
+        font-size: 15px;
+        font-weight: bold;
+        color: rgb(65, 64, 66);
+        padding: 30px;
+        margin-top: 30px;          
+    }
+    .logos_section_quehacemos{
+        height: 100px;
+        margin-top: 40px;
+        margin-left: 30px;              
+    }
+    .div_section_img_quehacemos{
+        display: flex;
+        flex-direction: column;
+    }
+    .img_section_quehacemos{        
+        border-radius: 5px;        
+        margin-top: 40px;
+        margin-right: 40px;                
+        height: 500px;
+        width: auto; 
+    }
+    .text_img{
+        font-family: 'Merriweather', serif; 
+        font-size: 13px;
+    }
+}  
+    .footer{        
+        background-color:rgba(181, 178, 189, 0.9) ;
+        width: 100%;             
+        display: flex;
+        justify-content: space-evenly;	
+	    align-items: center;             
+        .txt_footer{
+            margin: 15px 0px;
+            font-family: 'Merriweather', serif; 
+            color:rgb(78, 76, 81) ; 
+            font-size: 13px;                         
+        } 
+        .instagram{
+            display: flex;           
+            width: 25px;
+            height: 25px;
+        }
+        .facebook{
+            display: flex;         
+            width: 25px;
+            height: 25px;
+        }     
+    }
+}
+/*Fin scss Quehacemos*/
+
+/*Inicio scss Terapias*/
+.body_terapias {
+    background-color:rgb(255, 255, 255) ;
+    height: auto;
+    width: 100%;
+    .header{
+        background-color: rgba(181, 178, 189, 0.9) ;        	   
+    }
+    .header_isologo{       
+        width: 250px;
+        height: auto;
+        z-index: 100px;
+    }
+    .navbar-collapse{        
+        justify-content: end;
+    }
+    .nav-item{
+        margin: 15px;
+    }
+    .navbar-light .navbar-nav .nav-link{
+        font-family: 'Merriweather', serif; 
+        color: rgb(65, 64, 66) ;       
+    }
+    .navbar-light .navbar-nav .nav-link:hover{
+        color: rgb(117, 111, 157);       
+    }  
+.section_terapias{     
+    border: 1px solid rgb(65, 64, 66);
+    border-radius:10px;  
+    padding: 20px;
+    background-color:rgba(181, 178, 189, 0.8) ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 40px;  
+    .titulo_section{             
+        font-family: 'Merriweather', serif; 
+        font-size: 25px;
+        font-weight: bold;
+        color: rgb(65, 64, 66);
+        text-align: center; 
+    } 
+    .text_section{              
+        font-family: 'Merriweather', serif; 
+        font-size: 15px;
+        font-weight: bold;
+        color: rgb(65, 64, 66);
+        padding: 15px; 
+        text-align: center;                 
+    }
+}
+
+    .footer{        
+        background-color:rgba(181, 178, 189, 0.9) ;
+        width: 100%;    
+        display: flex;
+        justify-content: space-evenly;	
+	    align-items: center;             
+        .txt_footer{
+            margin: 15px 0px;
+            font-family: 'Merriweather', serif; 
+            color:rgb(78, 76, 81) ; 
+            font-size: 13px;                         
+        } 
+        .instagram{
+            display: flex;           
+            width: 25px;
+            height: 25px;
+        }
+        .facebook{
+            display: flex;         
+            width: 25px;
+            height: 25px;
+        }     
+    }
+}
+/*Fin scss Terapias*/
+
+/*Inicio scss Quiropraxia*/
+.body_quiropraxia {
+    background-color:rgb(255, 255, 255) ;
+    height: auto;
+    width: 100%;
+    .header{
+        background-color: rgba(181, 178, 189, 0.9) ;
+         	   
+    }
+    .header_isologo{       
+        width: 250px;
+        height: auto;
+        z-index: 100px;
+    }
+    .navbar-collapse{        
+        justify-content: end;
+    }
+    .nav-item{
+        margin: 15px;
+    }
+    .navbar-light .navbar-nav .nav-link{
+        font-family: 'Merriweather', serif; 
+        color: rgb(65, 64, 66) ;       
+    }
+    .navbar-light .navbar-nav .nav-link:hover{
+        color: rgb(117, 111, 157);       
+    }  
+.section_quiropraxia_intro{     
+    display: flex;
+    flex-direction: column;  
+    justify-content: center;    
+    border: 1px solid rgb(65, 64, 66);
+    border-radius:10px;  
+    padding: 20px;
+    background-color:rgba(181, 178, 189, 0.8) ;
+    margin: 40px; 
+    .img_div_section_quiropraxia{
+           width: 100%;
+    }    
+    .logo_section_quiropraxia{
+        width: 500px;
+        margin-left: 90px;
+        margin-top: 70px;
+        position: absolute;
+    }
+    .div_section_quiropraxia{
+        display: flex;
+
+        .text_section{              
+            font-family: 'Merriweather', serif; 
+            font-size: 15px;
+            font-weight: bold;
+            color: rgb(65, 64, 66);
+            padding: 30px;
+            margin-top: 30px;          
+        }
+    }    
+}    
+.section_quiropraxia_grid{     
+    border: 1px solid rgb(65, 64, 66);
+    border-radius:10px;  
+    padding: 20px;
+    background-color:rgba(181, 178, 189, 0.8) ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 40px;  
+    .div_section_grid_quiropraxia{
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+        grid-template-rows: 1fr 1fr ;
+        .img_section_quiropraxia{
+            width: 100%;       
+       }      
+    }
+    .img_section_quiropraxia:nth-child(1) {
+        grid-column: 1/2; 
+        grid-row: 1/2;
+    }
+    .img_section_quiropraxia:nth-child(2) {
+        grid-column: 2/3; 
+        grid-row: 1/2;
+    }
+    .img_section_quiropraxia:nth-child(3) {
+        grid-column: 2/3; 
+        grid-row: 2/3;
+    }
+    .img_section_quiropraxia:nth-child(4) {
+        grid-column: 3/4; 
+        grid-row: 1/2;
+    }
+    .img_section_quiropraxia:nth-child(5) {
+        grid-column: 1/2; 
+        grid-row: 2/3;
+    }
+    .img_section_quiropraxia:nth-child(6) {
+        grid-column: 3/4; 
+        grid-row: 2/3;
+    }
+}
+
+    .footer{        
+        background-color:rgba(181, 178, 189, 0.9) ;
+        width: 100%;     
+        display: flex;
+        justify-content: space-evenly;	
+	    align-items: center;             
+        .txt_footer{
+            margin: 15px 0px;
+            font-family: 'Merriweather', serif; 
+            color:rgb(78, 76, 81) ; 
+            font-size: 13px;                         
+        } 
+        .instagram{
+            display: flex;           
+            width: 25px;
+            height: 25px;
+        }
+        .facebook{
+            display: flex;         
+            width: 25px;
+            height: 25px;
+        }     
+    }
+}
+
+/*Fin scss Quiropraxia*/
+
+/*Inicio scss FA&Qs*/
+.body_faqs {
+    background-color:rgb(255, 255, 255) ;
+    height: auto;
+    width: 100%;
+    .header{
+        background-color: rgba(181, 178, 189, 0.9) ;        	   
+    }
+    .header_isologo{       
+        width: 250px;
+        height: auto;
+        z-index: 100px;
+    }
+    .navbar-collapse{        
+        justify-content: end;
+    }
+    .nav-item{
+        margin: 15px;
+    }
+    .navbar-light .navbar-nav .nav-link{
+        font-family: 'Merriweather', serif; 
+        color: rgb(65, 64, 66) ;       
+    }
+    .navbar-light .navbar-nav .nav-link:hover{
+        color: rgb(117, 111, 157);       
+    }  
+.section_faqs{     
+    border: 1px solid rgb(65, 64, 66);
+    border-radius:10px;  
+    padding: 20px;
+    background-color:rgba(181, 178, 189, 0.8) ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 40px; 
+    .tituloppal_section{
+        font-family: 'Merriweather', serif; 
+        font-size: 35px;
+        padding: 15px;
+        font-weight: bold;
+        color: rgb(65, 64, 66);
+        text-align: center;
+    }
+    .titulo_section{             
+        font-family: 'Merriweather', serif; 
+        font-size: 25px;
+        padding: 10px;
+        font-weight: bold;
+        color: rgb(65, 64, 66);
+        text-align: center; 
+    } 
+    .text_section{              
+        font-family: 'Merriweather', serif; 
+        font-size: 15px;
+        font-weight: bold;
+        color: rgb(65, 64, 66);
+        padding: 15px;
+        text-align: center;                   
+    }
+    .vid_section_faqs{
+        margin-left: 420px;
+    }
+}
+
+    .footer{        
+        background-color:rgba(181, 178, 189, 0.9) ;
+        width: 100%;    
+        display: flex;
+        justify-content: space-evenly;	
+	    align-items: center;             
+        .txt_footer{
+            margin: 15px 0px;
+            font-family: 'Merriweather', serif; 
+            color:rgb(78, 76, 81) ; 
+            font-size: 13px;                         
+        } 
+        .instagram{
+            display: flex;           
+            width: 25px;
+            height: 25px;
+        }
+        .facebook{
+            display: flex;         
+            width: 25px;
+            height: 25px;
+        }     
+    }
+}
+
+/*Fin scss FA&Qs*/
+
+/*Inicio scss Contacto*/
+.body_contacto {
+    background-image: url(../jpg/fondo_contacto.jpg);
+    height: auto;
+    width: 100%;
+    .header{
+        background-color: rgba(181, 178, 189, 0.9) ;
+      
+    }
+    .header_isologo{       
+        width: 250px;
+        height: auto;
+        z-index: 100px;
+    }
+    .navbar-collapse{        
+        justify-content: end;
+    }
+    .nav-item{
+        margin: 15px;
+    }
+    .navbar-light .navbar-nav .nav-link{
+        font-family: 'Merriweather', serif; 
+        color: rgb(65, 64, 66) ;       
+    }
+    .navbar-light .navbar-nav .nav-link:hover{
+        color: rgb(117, 111, 157);       
+    }  
+
+.section_contacto{
+    .div_section_contacto{		
+		display: flex;
+		justify-content: space-evenly;
+		background-color: rgba(181, 178, 189, 0.9);
+		border: 1px solid rgb(65, 64, 66);
+        border-radius:10px;  
+		margin: 40px;        
+		width: 40%;
+		height: 600px;
+	}
+	.contenido_formulario{	
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		width: 500px;
+		margin: 50px ;		
+		padding: 10px;
+        .input{
+            margin: 4px; 
+            border: 1px solid rgb(65, 64, 66);
+            font-family: 'Merriweather', serif; 
+            color:rgb(78, 76, 81) ; 
+            font-size: 13px;
+        }
+        .input_button{
+            margin: 4px; 
+            border: 1px solid rgb(65, 64, 66);
+            font-family: 'Merriweather', serif; 
+            color:rgb(78, 76, 81) ; 
+            width: 100px;
+            font-size: 13px;
+        }
+	}
+}  
+    .footer{        
+        background-color:rgba(181, 178, 189, 0.9) ;
+        width: 100%;        
+        display: flex;
+        justify-content: space-evenly;	
+	    align-items: center;             
+        .txt_footer{
+            margin: 15px 0px;
+            font-family: 'Merriweather', serif; 
+            color:rgb(78, 76, 81) ; 
+            font-size: 13px;                         
+        } 
+        .instagram{
+            display: flex;           
+            width: 25px;
+            height: 25px;
+        }
+        .facebook{
+            display: flex;         
+            width: 25px;
+            height: 25px;
+        }     
+    }
+}
+/*Fin scss Contacto*/
+
+
+/*Inicio Media Queries*/
+
+/*Inicio Media Queries para Mobile*/
+
+/*Inicio Media Queries Index, para mobile*/
+@media screen and (max-width: 420px) {   
+    .body_index {
+        background-image: url(../jpg/fondo_index_mobile.jpg);
+        height: auto;
+        width: 100%;
+    .header{
+        position: sticky;
+        margin-top: 0px;
+        background-color: rgba(181, 178, 189, 0.9) ;      
+    }
+    .header_isologo{       
+        width: 150px;
+        height: auto;
+        z-index: 100px;
+    }
+    .navbar-collapse{        
+        justify-content: end;
+    }
+    .nav-item{
+        margin: 15px;
+    }
+    .navbar-light .navbar-nav .nav-link{
+        font-size: 14px;
+        font-family: 'Merriweather', serif; 
+        color: rgb(65, 64, 66) ;       
+    }
+    .navbar-light .navbar-nav .nav-link:hover{
+        color: rgb(117, 111, 157);       
+    }  
+
+  .section_index{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: start;
+    .titulo_section{
+        padding: 10px;
+        margin: 20px;
+        font-family: 'Merriweather', serif; 
+        font-size: 16px;
+        font-weight: bold;
+        color: rgb(65, 64, 66);
+        text-align: center;       
+    }
+    .text_section{
+        border: 1px solid rgb(65, 64, 66);
+        border-radius:10px;        
+        font-family: 'Merriweather', serif; 
+        font-size: 12px;       
+        color: rgb(65, 64, 66);
+        padding: 60px 20px 20px 20px;
+        margin: 20px;
+        background-color:rgba(181, 178, 189, 0.8) ;
+        text-align: center;
+    }
+}  
+    .footer{  
+        margin-bottom: 0px;
+        position: fixed;           
+        bottom: 0px;             
+        background-color:rgba(181, 178, 189, 0.9) ;
+        width: 100%;        
+        display: flex;
+        justify-content: space-evenly;	
+	    align-items: center;             
+        .txt_footer{
+            margin: 15px 0px;
+            font-family: 'Merriweather', serif; 
+            color:rgb(78, 76, 81) ; 
+            font-size: 8px;                         
+        } 
+        .instagram{
+            display: flex;           
+            width: 15px;
+            height: 15px;
+        }
+        .facebook{
+            display: flex;         
+            width: 15px;
+            height: 15px;
+        }     
+    }
+}   
+}
+/*Fin Media Queries Index, para mobile*/
+
+/*Inicio Media Queries Que hacemos, para mobile*/
+@media screen and (max-width: 420px) {
+ .body_quehacemos {
+    background-color:rgb(255, 255, 255) ;
+    height: auto;
+    width: 100%;
+    .header{
+        position: sticky;
+        margin-top: 0px;
+        background-color: rgba(181, 178, 189, 0.9) ;          
+    }
+    .header_isologo{       
+        width: 150px;
+        height: auto;
+        z-index: 100px;
+    }
+    .navbar-collapse{        
+        justify-content: end;
+    }
+    .nav-item{
+        margin: 15px;
+    }
+    .navbar-light .navbar-nav .nav-link{
+        font-size: 14px;
+        font-family: 'Merriweather', serif; 
+        color: rgb(65, 64, 66) ;       
+    }
+    .navbar-light .navbar-nav .nav-link:hover{
+        color: rgb(117, 111, 157);       
+    } 
+
+ .section_quehacemos{ 
+    border: 1px solid rgb(65, 64, 66);
+    border-radius:10px;  
+    padding: 30px;
+    background-color:rgba(181, 178, 189, 0.8) ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px;
+    .div_section_quehacemo{
+        display: flex;
+                      
+    }
+    .text_section{              
+        font-family: 'Merriweather', serif; 
+        font-size: 12px;
+        font-weight: bold;
+        color: rgb(65, 64, 66);
+        padding: 20px;
+        margin-top: 10px;          
+    }
+    .logos_section_quehacemos{
+        height: 40px;
+        margin-top: 15px;
+        margin-left: 40px;             
+    }
+    .div_section_img_quehacemos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .img_section_quehacemos{        
+        border-radius: 5px;        
+        margin-top: 40px;       
+        margin-left: 35px;               
+        height: auto;
+        width: 300px
+    }
+    .text_img{         
+        font-size: 10px;
+        font-family: 'Merriweather', serif; 
+        font-size: 12px;
+        color: rgb(65, 64, 66);
+        text-align: center;        
+    }
+ }  
+    .footer{  
+        margin-bottom: 0px;                   
+        bottom: 0px;       
+        background-color:rgba(181, 178, 189, 0.9) ;
+        width: 100%;        
+        display: flex;
+        justify-content: space-evenly;	
+	    align-items: center;             
+        .txt_footer{
+            margin: 15px 0px;
+            font-family: 'Merriweather', serif; 
+            color:rgb(78, 76, 81) ; 
+            font-size: 8px;                         
+        } 
+        .instagram{
+            display: flex;           
+            width: 15px;
+            height: 15px;
+        }
+        .facebook{
+            display: flex;         
+            width: 15px;
+            height: 15px;
+        }   
+    }
+ }
+}
+/*Fin Media Queries Que hacemos, para mobile*/
+
+/*Inicio Media Queries Terapias, para mobile*/
+@media screen and (max-width: 420px) {
+    .body_terapias {
+        background-image: url(../jpg/fondo_terapias_mobile.jpg)  ;
+        height: auto;
+        width: 100%;
+        .header{
+            position: sticky;
+            margin-top: 0px;
+            background-color: rgba(181, 178, 189, 0.9) ;        	   
+        }
+        .header_isologo{       
+            width: 150px;
+            height: auto;
+            z-index: 100px;
+        }
+        .navbar-collapse{        
+            justify-content: end;
+        }
+        .nav-item{
+            margin: 15px;
+        }
+        .navbar-light .navbar-nav .nav-link{
+            font-size: 14px;
+            font-family: 'Merriweather', serif; 
+            color: rgb(65, 64, 66) ;       
+        }
+        .navbar-light .navbar-nav .nav-link:hover{
+            color: rgb(117, 111, 157);       
+        }  
+    .section_terapias{     
+        border: 1px solid rgb(65, 64, 66);
+        border-radius:10px;  
+        padding: 10px;
+        background-color:rgba(181, 178, 189, 0.8) ;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 100px 20px 20px 20px;  
+        .titulo_section{             
+            font-family: 'Merriweather', serif; 
+            font-size: 16px;
+            font-weight: bold;
+            color: rgb(65, 64, 66);
+            text-align: center; 
+        } 
+        .text_section{              
+            font-family: 'Merriweather', serif; 
+            font-size: 12px;            
+            color: rgb(65, 64, 66);
+            padding: 5px; 
+            text-align: center;                 
+        }
+    }
+    
+        .footer{  
+           margin-bottom: 0px;
+           position: fixed;           
+           bottom: 0px;        
+           background-color:rgba(181, 178, 189, 0.9) ;
+           width: 100%;        
+           display: flex;
+           justify-content: space-evenly;	
+	       align-items: center;             
+           .txt_footer{
+            margin: 15px 0px;
+            font-family: 'Merriweather', serif; 
+            color:rgb(78, 76, 81) ; 
+            font-size: 8px;                         
+        } 
+           .instagram{
+            display: flex;           
+            width: 15px;
+            height: 15px;
+        }
+           .facebook{
+            display: flex;         
+            width: 15px;
+            height: 15px;
+        }     
+      }
+    }
+}
+/*Fin Media Queries Terapias, para mobile*/
+
+/*Inicio Media Queries Quiropraxia, para mobile*/
+@media screen and (max-width: 420px) {
+    .body_quiropraxia {
+        background-color:rgb(255, 255, 255) ;
+        height: auto;
+        width: 100%;
+        .header{
+            position: sticky;
+            margin-top: 0px;
+            background-color: rgba(181, 178, 189, 0.9) ;                    
+        }
+        .header_isologo{       
+            width: 150px;
+            height: auto;
+            z-index: 100px;
+        }
+        .navbar-collapse{        
+            justify-content: end;
+        }
+        .nav-item{
+            margin: 15px;
+        }
+        .navbar-light .navbar-nav .nav-link{
+            font-size: 14px;
+            font-family: 'Merriweather', serif; 
+            color: rgb(65, 64, 66) ;       
+        }
+        .navbar-light .navbar-nav .nav-link:hover{
+            color: rgb(117, 111, 157);       
+        }  
+    .section_quiropraxia_intro{     
+        display: flex;
+        flex-direction: column;  
+        justify-content: center;    
+        border: 1px solid rgb(65, 64, 66);
+        border-radius:10px;  
+        padding: 5px;
+        background-color:rgba(181, 178, 189, 0.8) ;
+        margin: 20px;         
+        .logo_section_quiropraxia{
+            width: 200px;        
+            margin-top: 20px;
+            position: relative;            
+        }
+        .div_section_quiropraxia{
+            display: flex;
+            flex-direction: column;
+            .img_div_section_quiropraxia {
+                margin-top: 20px;
+            }        
+    
+            .text_section{              
+                font-family: 'Merriweather', serif; 
+                font-size: 12px;                
+                color: rgb(65, 64, 66);
+                padding: 10px;
+                        
+            }
+        }    
+    }    
+    .section_quiropraxia_grid{     
+        border: 1px solid rgb(65, 64, 66);
+        border-radius:10px;  
+        padding: 10px;
+        background-color:rgba(181, 178, 189, 0.8) ;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 20px;  
+        .div_section_grid_quiropraxia{
+            display: flex;
+            flex-direction: column;            
+            .img_section_quiropraxia{
+                width: 100%;       
+           }      
+        }
+    }
+    
+        .footer{                       
+           margin-bottom: 0px;                      
+           bottom: 0px;         
+           background-color:rgba(181, 178, 189, 0.9) ;
+           width: 100%;        
+           display: flex;
+           justify-content: space-evenly;	
+	       align-items: center;             
+           .txt_footer{
+            margin: 15px 0px;
+            font-family: 'Merriweather', serif; 
+            color:rgb(78, 76, 81) ; 
+            font-size: 8px;                         
+        } 
+           .instagram{
+            display: flex;           
+            width: 15px;
+            height: 15px;
+        }
+           .facebook{
+            display: flex;         
+            width: 15px;
+            height: 15px;
+        }     
+      }
+    }
+}
+/*Fin Media Queries Quiropraxia, para mobile*/
+
+/*Inicio Media Queries FA&Qs, para mobile*/
+@media screen and (max-width: 420px) {
+    .body_faqs {
+        background-color:rgb(255, 255, 255) ;
+        height: auto;
+        width: 100%;
+        .header{
+            position: sticky;
+            margin-top: 0px;
+            background-color: rgba(181, 178, 189, 0.9) ;        	   
+        }
+        .header_isologo{       
+            width: 150px;
+            height: auto;
+            z-index: 100px;
+        }
+        .navbar-collapse{        
+            justify-content: end;
+        }
+        .nav-item{
+            margin: 15px;
+        }
+        .navbar-light .navbar-nav .nav-link{
+            font-size: 14px;
+            font-family: 'Merriweather', serif; 
+            color: rgb(65, 64, 66) ;       
+        }
+        .navbar-light .navbar-nav .nav-link:hover{
+            color: rgb(117, 111, 157);       
+        }  
+    .section_faqs{     
+        border: 1px solid rgb(65, 64, 66);
+        border-radius:10px;  
+        padding: 10px;
+        background-color:rgba(181, 178, 189, 0.8) ;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 20px; 
+        .tituloppal_section{
+            font-family: 'Merriweather', serif; 
+            font-size: 20px;
+            padding: 7px;
+            font-weight: bold;
+            color: rgb(65, 64, 66);
+            text-align: center;
+        }
+        .titulo_section{             
+            font-family: 'Merriweather', serif; 
+            font-size: 17px;
+            padding: 5px;
+            font-weight: bold;
+            color: rgb(65, 64, 66);
+            text-align: center; 
+        } 
+        .text_section{              
+            font-family: 'Merriweather', serif; 
+            font-size: 12px;           
+            color: rgb(65, 64, 66);
+            padding: 5px;
+            text-align: center;                   
+        }
+        .vid_section_faqs{
+            margin-left: 10px;
+            width: 300px;
+        }
+    }
+    
+        .footer{ 
+           margin-bottom: 0px;                      
+           bottom: 0px;          
+           background-color:rgba(181, 178, 189, 0.9) ;
+           width: 100%;        
+           display: flex;
+           justify-content: space-evenly;	
+	       align-items: center;             
+           .txt_footer{
+            margin: 15px 0px;
+            font-family: 'Merriweather', serif; 
+            color:rgb(78, 76, 81) ; 
+            font-size: 8px;                         
+        } 
+           .instagram{
+            display: flex;           
+            width: 15px;
+            height: 15px;
+        }
+           .facebook{
+            display: flex;         
+            width: 15px;
+            height: 15px;
+        }      
+        }
+    }
+}
+/*Fin Media Queries FA&Qs, para mobile*/
+
+/*Inicio Media Queries Contacto, para mobile*/
+@media screen and (max-width: 420px) {
+    .body_contacto {
+        background-image: url(../jpg/fondo_contacto_mobile.jpg);
+        height: auto;
+        width: 100%;
+        .header{
+            position: sticky;
+            margin-top: 0px;
+            background-color: rgba(181, 178, 189, 0.9) ;
+          
+        }
+        .header_isologo{       
+            width: 150px;
+            height: auto;
+            z-index: 100px;
+        }
+        .navbar-collapse{        
+            justify-content: end;
+        }
+        .nav-item{
+            margin: 15px;
+        }
+        .navbar-light .navbar-nav .nav-link{
+            font-size: 14px;
+            font-family: 'Merriweather', serif; 
+            color: rgb(65, 64, 66) ;       
+        }
+        .navbar-light .navbar-nav .nav-link:hover{
+            color: rgb(117, 111, 157);       
+        }  
+    
+    .section_contacto{
+        .div_section_contacto{		
+            display: flex;
+            justify-content: space-evenly;
+            background-color: rgba(181, 178, 189, 0.9);
+            border: 1px solid rgb(65, 64, 66);
+            border-radius:10px;  
+            margin: 20px;        
+            width: 90%;
+            height: 500px;
+        }
+        .contenido_formulario{	
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            width: auto;
+            margin: 20px;		
+            padding: 10px;
+            .input{
+                margin: 2px; 
+                border: 1px solid rgb(65, 64, 66);
+                font-family: 'Merriweather', serif; 
+                color:rgb(78, 76, 81) ; 
+                font-size: 12px;
+            }
+            .input_button{
+                font-family: 'Merriweather', serif; 
+                color:rgb(78, 76, 81) ; 
+                width: 100px;
+                font-size: 12px;
+            }
+        }
+    }  
+        .footer{ 
+           margin-bottom: 0px;  
+           position: fixed;                   
+           bottom: 0px;         
+           background-color:rgba(181, 178, 189, 0.9) ;
+           width: 100%;        
+           display: flex;
+           justify-content: space-evenly;	
+	       align-items: center;             
+           .txt_footer{
+            margin: 15px 0px;
+            font-family: 'Merriweather', serif; 
+            color:rgb(78, 76, 81) ; 
+            font-size: 8px;                         
+        } 
+           .instagram{
+            display: flex;           
+            width: 15px;
+            height: 15px;
+        }
+           .facebook{
+            display: flex;         
+            width: 15px;
+            height: 15px;
+        }      
+      }
+    }
+}
+/*Fin Media Queries Contacto, para mobile*/
+
+/*Inicio Media Queries para Tablet*/
+
+/*Inicio Media Queries Index, para tablet*/
+@media (min-width: 421px) and (max-width: 1024px) {   
+    .body_index {
+        background-image: url(../jpg/fondo_index_tablet.jpg);
+        height: auto;
+        width: 100%;
+    .header{
+        position: sticky;
+        margin-top: 0px;
+        background-color: rgba(181, 178, 189, 0.9) ;      
+    }
+    .header_isologo{       
+        width: 200px;
+        height: auto;
+        z-index: 100px;
+    }
+    .navbar-collapse{        
+        justify-content: end;
+    }
+    .nav-item{
+        margin: 15px;
+    }
+    .navbar-light .navbar-nav .nav-link{
+        font-size: 14px;
+        font-family: 'Merriweather', serif; 
+        color: rgb(65, 64, 66) ;       
+    }
+    .navbar-light .navbar-nav .nav-link:hover{
+        color: rgb(117, 111, 157);       
+    }  
+
+  .section_index{
+      margin-top: 100px;
+      margin-right: 600px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: start;
+    .titulo_section{
+        padding: 20px;
+        margin: 30px;
+        font-family: 'Merriweather', serif; 
+        font-size: 19px;
+        font-weight: bold;
+        color: rgb(65, 64, 66);
+        text-align: center;       
+    }
+    .text_section{
+        border: 1px solid rgb(65, 64, 66);
+        border-radius:10px;        
+        font-family: 'Merriweather', serif; 
+        font-size: 14px;       
+        color: rgb(65, 64, 66);
+        padding: 90px 35px 35px 35px;
+        margin: 30px;
+        background-color:rgba(181, 178, 189, 0.8) ;
+        text-align: center;
+    }
+}  
+    .footer{  
+        margin-bottom: 0px;
+        position: fixed;           
+        bottom: 0px;             
+        background-color:rgba(181, 178, 189, 0.9) ;
+        width: 100%;        
+        display: flex;
+        justify-content: space-evenly;	
+	    align-items: center;             
+        .txt_footer{
+            margin: 15px 0px;
+            font-family: 'Merriweather', serif; 
+            color:rgb(78, 76, 81) ; 
+            font-size: 8px;                         
+        } 
+        .instagram{
+            display: flex;           
+            width: 15px;
+            height: 15px;
+        }
+        .facebook{
+            display: flex;         
+            width: 15px;
+            height: 15px;
+        }     
+    }
+}   
+}
+/*Fin Media Queries Index, para tablet*/
+
+/*Inicio Media Queries Que hacemos, para tablet*/
+@media (min-width: 421px) and (max-width: 1024px) {
+ .body_quehacemos {
+    background-color:rgb(255, 255, 255) ;
+    height: auto;
+    width: 100%;
+    .header{
+        position: sticky;
+        margin-top: 0px;
+        background-color: rgba(181, 178, 189, 0.9) ;          
+    }
+    .header_isologo{       
+        width: 200px;
+        height: auto;
+        z-index: 100px;
+    }
+    .navbar-collapse{        
+        justify-content: end;
+    }
+    .nav-item{
+        margin: 15px;
+    }
+    .navbar-light .navbar-nav .nav-link{
+        font-size: 14px;
+        font-family: 'Merriweather', serif; 
+        color: rgb(65, 64, 66) ;       
+    }
+    .navbar-light .navbar-nav .nav-link:hover{
+        color: rgb(117, 111, 157);       
+    } 
+
+ .section_quehacemos{ 
+    border: 1px solid rgb(65, 64, 66);
+    border-radius:10px;  
+    padding: 10px;
+    background-color:rgba(181, 178, 189, 0.8) ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin:80px 30px 30px 30px;
+    .div_section_quehacemo{
+        display: flex;
+        flex-direction: row;
+                          
+    }
+    .text_section{              
+        font-family: 'Merriweather', serif; 
+        font-size: 14px;        
+        color: rgb(65, 64, 66);
+        padding: 10px;
+        margin-top: 20px;          
+    }
+    .logos_section_quehacemos{
+        height: 60px;
+        margin-top: 10px;
+        margin-left: 30px;              
+    }
+    .div_section_img_quehacemos{
+        display: flex;
+        flex-direction: column;
+    }
+    .img_section_quehacemos{        
+        border-radius: 5px;        
+        margin-top: 40px;
+        margin-right: 40px;                
+        height: 350px;
+        width: auto; 
+    }
+    .text_img{     
+        font-size: 10px;
+        font-family: 'Merriweather', serif; 
+        font-size: 12px;
+        color: rgb(65, 64, 66);
+        text-align: center;  
+    }
+ }  
+    .footer{ 
+        position: fixed; 
+        margin-bottom: 0px;                   
+        bottom: 0px;       
+        background-color:rgba(181, 178, 189, 0.9) ;
+        width: 100%;        
+        display: flex;
+        justify-content: space-evenly;	
+	    align-items: center;             
+        .txt_footer{
+            margin: 15px 0px;
+            font-family: 'Merriweather', serif; 
+            color:rgb(78, 76, 81) ; 
+            font-size: 10px;                         
+        } 
+           .instagram{
+            display: flex;           
+            width: 20px;
+            height: 20px;
+        }
+           .facebook{
+            display: flex;         
+            width: 20px;
+            height: 20px;
+        }   
+    }
+ }
+}
+/*Fin Media Queries Que hacemos, para tablet*/
+
+/*Inicio Media Queries Terapias, para tablet*/
+@media (min-width: 421px) and (max-width: 1024px) {
+    .body_terapias {
+        background-color: rgb(255, 255, 255)  ;
+        height: auto;
+        width: 100%;
+        .header{
+            position: sticky;
+            margin-top: 0px;
+            background-color: rgba(181, 178, 189, 0.9) ;        	   
+        }
+        .header_isologo{       
+            width: 200px;
+            height: auto;
+            z-index: 100px;
+        }
+        .navbar-collapse{        
+            justify-content: end;
+        }
+        .nav-item{
+            margin: 15px;
+        }
+        .navbar-light .navbar-nav .nav-link{
+            font-size: 14px;
+            font-family: 'Merriweather', serif; 
+            color: rgb(65, 64, 66) ;       
+        }
+        .navbar-light .navbar-nav .nav-link:hover{
+            color: rgb(117, 111, 157);       
+        }  
+    .section_terapias{     
+        border: 1px solid rgb(65, 64, 66);
+        border-radius:10px;  
+        padding: 10px;
+        background-color:rgba(181, 178, 189, 0.8) ;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin:70px 30px 30px 30px;  
+        .titulo_section{             
+            font-family: 'Merriweather', serif; 
+            font-size: 19px;
+            font-weight: bold;
+            color: rgb(65, 64, 66);
+            text-align: center; 
+        } 
+        .text_section{              
+            font-family: 'Merriweather', serif; 
+            font-size: 14px;            
+            color: rgb(65, 64, 66);
+            padding: 10px; 
+            text-align: center;                 
+        }
+    }
+    
+        .footer{  
+           margin-bottom: 0px;
+           position: fixed;           
+           bottom: 0px;        
+           background-color:rgba(181, 178, 189, 0.9) ;
+           width: 100%;        
+           display: flex;
+           justify-content: space-evenly;	
+	       align-items: center;             
+           .txt_footer{
+            margin: 15px 0px;
+            font-family: 'Merriweather', serif; 
+            color:rgb(78, 76, 81) ; 
+            font-size: 10px;                         
+        } 
+           .instagram{
+            display: flex;           
+            width: 20px;
+            height: 20px;
+        }
+           .facebook{
+            display: flex;         
+            width: 20px;
+            height: 20px;
+        }    
+      }
+    }
+}
+/*Fin Media Queries Terapias, para tablet*/
+
+/*Inicio Media Queries Quiropraxia, para tablet*/
+@media (min-width: 421px) and (max-width: 1024px) {
+    .body_quiropraxia {
+        background-color:rgb(255, 255, 255) ;
+        height: auto;
+        width: 100%;
+        .header{
+            position: sticky;
+            margin-top: 0px;
+            background-color: rgba(181, 178, 189, 0.9) ;                    
+        }
+        .header_isologo{       
+            width: 200px;
+            height: auto;
+            z-index: 100px;
+        }
+        .navbar-collapse{        
+            justify-content: end;
+        }
+        .nav-item{
+            margin: 15px;
+        }
+        .navbar-light .navbar-nav .nav-link{
+            font-size: 14px;
+            font-family: 'Merriweather', serif; 
+            color: rgb(65, 64, 66) ;       
+        }
+        .navbar-light .navbar-nav .nav-link:hover{
+            color: rgb(117, 111, 157);       
+        }  
+        .section_quiropraxia_intro{     
+            display: flex;
+            flex-direction: column;  
+            justify-content: center;    
+            border: 1px solid rgb(65, 64, 66);
+            border-radius:10px;  
+            padding: 20px;
+            background-color:rgba(181, 178, 189, 0.8) ;
+            margin: 30px; 
+            
+            .logo_section_quiropraxia{
+                width: 250px;
+                margin-left: 65px;
+                margin-top: 110px;
+                position: absolute;
+            }
+            .div_section_quiropraxia{
+                display: flex;
+                flex-direction: row;
+                .img_div_section_quiropraxia{
+                    width: 500px;
+                }        
+                .text_section{              
+                    font-family: 'Merriweather', serif; 
+                    font-size: 14px;
+                    font-weight: bold;
+                    color: rgb(65, 64, 66);
+                    padding: 10px;
+                    margin: 20px ;          
+                }
+            }    
+        }    
+        .section_quiropraxia_grid{     
+            border: 1px solid rgb(65, 64, 66);
+            border-radius:10px;  
+            padding: 10px;
+            background-color:rgba(181, 178, 189, 0.8) ;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin:30px;  
+            .div_section_grid_quiropraxia{
+                display: grid;
+                grid-template-columns: 1fr 2fr 1fr;
+                grid-template-rows: 1fr 1fr ;
+                .img_section_quiropraxia{
+                    width: 100%;       
+               }      
+            }
+            .img_section_quiropraxia:nth-child(1) {
+                grid-column: 1/2; 
+                grid-row: 1/2;
+            }
+            .img_section_quiropraxia:nth-child(2) {
+                grid-column: 2/3; 
+                grid-row: 1/2;
+            }
+            .img_section_quiropraxia:nth-child(3) {
+                grid-column: 2/3; 
+                grid-row: 2/3;
+            }
+            .img_section_quiropraxia:nth-child(4) {
+                grid-column: 3/4; 
+                grid-row: 1/2;
+            }
+            .img_section_quiropraxia:nth-child(5) {
+                grid-column: 1/2; 
+                grid-row: 2/3;
+            }
+            .img_section_quiropraxia:nth-child(6) {
+                grid-column: 3/4; 
+                grid-row: 2/3;
+            }
+      }
+    
+        .footer{                       
+           margin-bottom: 0px;                      
+           bottom: 0px;         
+           background-color:rgba(181, 178, 189, 0.9) ;
+           width: 100%;        
+           display: flex;
+           justify-content: space-evenly;	
+	       align-items: center;             
+           .txt_footer{
+            margin: 15px 0px;
+            font-family: 'Merriweather', serif; 
+            color:rgb(78, 76, 81) ; 
+            font-size: 10px;                         
+        } 
+           .instagram{
+            display: flex;           
+            width: 20px;
+            height: 20px;
+        }
+           .facebook{
+            display: flex;         
+            width: 20px;
+            height: 20px;
+        }     
+      }
+    }
+}
+/*Fin Media Queries Quiropraxia, para tablet*/
+
+/*Inicio Media Queries FA&Qs, para tablet*/
+@media (min-width: 421px) and (max-width: 1024px) {
+    .body_faqs {
+        background-color:rgb(255, 255, 255) ;
+        height: auto;
+        width: 100%;
+        .header{
+            position: sticky;
+            margin-top: 0px;
+            background-color: rgba(181, 178, 189, 0.9) ;        	   
+        }
+        .header_isologo{       
+            width: 200px;
+            height: auto;
+            z-index: 100px;
+        }
+        .navbar-collapse{        
+            justify-content: end;
+        }
+        .nav-item{
+            margin: 15px;
+        }
+        .navbar-light .navbar-nav .nav-link{
+            font-size: 14px;
+            font-family: 'Merriweather', serif; 
+            color: rgb(65, 64, 66) ;       
+        }
+        .navbar-light .navbar-nav .nav-link:hover{
+            color: rgb(117, 111, 157);       
+        }  
+    .section_faqs{     
+        border: 1px solid rgb(65, 64, 66);
+        border-radius:10px;  
+        padding: 10px;
+        background-color:rgba(181, 178, 189, 0.8) ;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 30px; 
+        .tituloppal_section{
+            font-family: 'Merriweather', serif; 
+            font-size: 23px;
+            padding: 7px;
+            font-weight: bold;
+            color: rgb(65, 64, 66);
+            text-align: center;
+        }
+        .titulo_section{             
+            font-family: 'Merriweather', serif; 
+            font-size: 19px;
+            padding: 10px;
+            font-weight: bold;
+            color: rgb(65, 64, 66);
+            text-align: center; 
+        } 
+        .text_section{              
+            font-family: 'Merriweather', serif; 
+            font-size: 14px;           
+            color: rgb(65, 64, 66);
+            padding: 10px;
+            text-align: center;                   
+        }
+        .vid_section_faqs{
+            margin-left: 10px;
+            width: 300px;
+        }
+    }
+    
+        .footer{ 
+           margin-bottom: 0px;                      
+           bottom: 0px;          
+           background-color:rgba(181, 178, 189, 0.9) ;
+           width: 100%;        
+           display: flex;
+           justify-content: space-evenly;	
+	       align-items: center;             
+           .txt_footer{
+            margin: 15px 0px;
+            font-family: 'Merriweather', serif; 
+            color:rgb(78, 76, 81) ; 
+            font-size: 10px;                         
+        } 
+           .instagram{
+            display: flex;           
+            width: 20px;
+            height: 20px;
+        }
+           .facebook{
+            display: flex;         
+            width: 20px;
+            height: 20px;
+        }      
+      }
+    }
+}
+/*Fin Media Queries FA&Qs, para tablet*/
+
+/*Inicio Media Queries Contacto, para tablet*/
+@media (min-width: 421px) and (max-width: 1024px) {
+    .body_contacto {
+        background-image: url(../jpg/fondo_contacto_tablet.jpg);
+        height: auto;
+        width: 100%;
+        .header{
+            position: sticky;
+            margin-top: 0px;
+            background-color: rgba(181, 178, 189, 0.9) ;
+          
+        }
+        .header_isologo{       
+            width: 200px;
+            height: auto;
+            z-index: 100px;
+        }
+        .navbar-collapse{        
+            justify-content: end;
+        }
+        .nav-item{
+            margin: 15px;
+        }
+        .navbar-light .navbar-nav .nav-link{
+            font-size: 14px;
+            font-family: 'Merriweather', serif; 
+            color: rgb(65, 64, 66) ;       
+        }
+        .navbar-light .navbar-nav .nav-link:hover{
+            color: rgb(117, 111, 157);       
+        }  
+    
+    .section_contacto{
+        .div_section_contacto{		
+            display: flex;
+            justify-content: space-evenly;
+            background-color: rgba(181, 178, 189, 0.9);
+            border: 1px solid rgb(65, 64, 66);
+            border-radius:10px;  
+            margin: 30px;        
+            width: 45%;
+            height: 550px;
+        }
+        .contenido_formulario{	
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            width: auto;
+            margin: 40px;		
+            padding: 10px;
+            .input{
+                margin: 4px; 
+                border: 1px solid rgb(65, 64, 66);
+                font-family: 'Merriweather', serif; 
+                color:rgb(78, 76, 81) ; 
+                font-size: 13px;
+            }
+            .input_button{
+                margin: 4px; 
+                border: 1px solid rgb(65, 64, 66);
+                font-family: 'Merriweather', serif; 
+                color:rgb(78, 76, 81) ; 
+                width: 100px;
+                font-size: 13px;
+            }
+        }
+    }  
+        .footer{ 
+           margin-bottom: 0px;  
+           position: fixed;                   
+           bottom: 0px;         
+           background-color:rgba(181, 178, 189, 0.9) ;
+           width: 100%;        
+           display: flex;
+           justify-content: space-evenly;	
+	       align-items: center;             
+           .txt_footer{
+            margin: 15px 0px;
+            font-family: 'Merriweather', serif; 
+            color:rgb(78, 76, 81) ; 
+            font-size: 10px;                         
+        } 
+           .instagram{
+            display: flex;           
+            width: 20px;
+            height: 20px;
+        }
+           .facebook{
+            display: flex;         
+            width: 20px;
+            height: 20px;
+        }      
+      }
+    }
+}
+/*Fin Media Queries Contacto, para tablet*/
+
